@@ -101,7 +101,7 @@ const StyledIcon = styled(Icon)`
   align-items: center;
   &__text__container {
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-shadow: 0 1px 1px black;
     margin-top: 5px;
@@ -127,14 +127,14 @@ const StyledIcon = styled(Icon)`
     flex-shrink: 1;
   }
   &__img__container {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     filter: ${({ isFocus, displayFocus }) =>
       isFocus && displayFocus ? 'drop-shadow(0 0 blue)' : ''};
   }
   &__img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     opacity: ${({ isFocus, displayFocus }) =>
       isFocus && displayFocus ? 0.5 : 1};
   }
