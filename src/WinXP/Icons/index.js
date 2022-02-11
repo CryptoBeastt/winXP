@@ -89,19 +89,19 @@ function Icon({
 
 const IconsContainer = styled.div`
   position: absolute;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 40px;
 `;
 
 const StyledIcon = styled(Icon)`
-  width: 60px;
+  width: 70px;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   &__text__container {
     width: 100%;
-    font-size: 20px;
+    font-size: 10px;
     color: white;
     text-shadow: 0 1px 1px black;
     margin-top: 5px;
@@ -127,14 +127,14 @@ const StyledIcon = styled(Icon)`
     flex-shrink: 1;
   }
   &__img__container {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     filter: ${({ isFocus, displayFocus }) =>
       isFocus && displayFocus ? 'drop-shadow(0 0 blue)' : ''};
   }
   &__img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     opacity: ${({ isFocus, displayFocus }) =>
       isFocus && displayFocus ? 0.5 : 1};
   }
