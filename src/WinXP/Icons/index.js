@@ -94,14 +94,14 @@ const IconsContainer = styled.div`
 `;
 
 const StyledIcon = styled(Icon)`
-  width: 70px;
+  width: 60px;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   &__text__container {
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     text-shadow: 0 1px 1px black;
     margin-top: 5px;
@@ -127,14 +127,14 @@ const StyledIcon = styled(Icon)`
     flex-shrink: 1;
   }
   &__img__container {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     filter: ${({ isFocus, displayFocus }) =>
       isFocus && displayFocus ? 'drop-shadow(0 0 blue)' : ''};
   }
   &__img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     opacity: ${({ isFocus, displayFocus }) =>
       isFocus && displayFocus ? 0.5 : 1};
   }
