@@ -173,7 +173,7 @@ function MyComputer({ onClose }) {
                     alt="network"
                   />
                   <div className="com__content__left__card__text link">
-                    My Network Places
+                    Whitepaper
                   </div>
                 </div>
                 <div className="com__content__left__card__row">
@@ -183,7 +183,7 @@ function MyComputer({ onClose }) {
                     alt="document"
                   />
                   <div className="com__content__left__card__text link">
-                    My Documents
+                    Audits
                   </div>
                 </div>
                 <div className="com__content__left__card__row">
@@ -193,7 +193,7 @@ function MyComputer({ onClose }) {
                     alt="folder"
                   />
                   <div className="com__content__left__card__text link">
-                    Shared Documents
+                    Faq
                   </div>
                 </div>
                 <div className="com__content__left__card__row">
@@ -351,7 +351,7 @@ function MyComputer({ onClose }) {
             </div>
             <div className="com__content__right__card com__content__right__card--me">
               <div className="com__content__right__card__header">
-                About Me :)
+                Social Media
               </div>
               <div className="com__content__right__card__content">
                 <ga.OutboundLink
@@ -379,7 +379,7 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <div className="com__content__right__card__text">
-                    My Website
+                    Telegram
                   </div>
                 </ga.OutboundLink>
               </div>
