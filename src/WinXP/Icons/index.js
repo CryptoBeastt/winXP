@@ -90,7 +90,7 @@ function Icon({
 const IconsContainer = styled.div`
   position: absolute;
   margin-top: 40px;
-  margin-left: 18px;
+  margin-left: 25px;
 `;
 
 const StyledIcon = styled(Icon)`
