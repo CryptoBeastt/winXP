@@ -355,8 +355,8 @@ function MyComputer({ onClose }) {
               </div>
               <div className="com__content__right__card__content">
                 <ga.OutboundLink
-                  eventLabel="https://github.com/ShizukuIchi"
-                  to="https://github.com/ShizukuIchi"
+                  eventLabel="https://www.google.com"
+                  to="https://www.google.com"
                   className="com__content__right__card__item--me"
                   target="_blank"
                 >
@@ -365,11 +365,11 @@ function MyComputer({ onClose }) {
                     src={logo}
                     alt="control"
                   />
-                  <div className="com__content__right__card__text">Github</div>
+                  <div className="com__content__right__card__text">Google</div>
                 </ga.OutboundLink>
                 <ga.OutboundLink
-                  eventLabel="https://sh1zuku.csie.io"
-                  to="https://sh1zuku.csie.io"
+                  eventLabel="https://www.google.com"
+                  to="https://www.google.com"
                   className="com__content__right__card__item--me"
                   target="_blank"
                 >
