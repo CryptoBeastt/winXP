@@ -253,8 +253,8 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://sh1zuku.csie.io/blog"
-                    to="https://sh1zuku.csie.io/blog"
+                    eventLabel="https://csie.io/blog"
+                    to="https://csie.io/blog"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
@@ -268,8 +268,8 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://github.com/ShizukuIchi/minesweeper"
-                    to="https://github.com/ShizukuIchi/minesweeper"
+                    eventLabel="https://github.com/"
+                    to="https://github.com/"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
