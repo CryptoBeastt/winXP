@@ -12,7 +12,7 @@ function Paint({ onClose, isFocus }) {
       }}
     >
       <iframe
-        src="https://www.google.com/"
+        src="https://www.nu.nl/"
         frameBorder="0"
         title="paint"
         style={{
