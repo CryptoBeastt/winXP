@@ -224,7 +224,7 @@ function MyComputer({ onClose }) {
                   <iframe
                     title="ghbtn"
                     style={{ margin: '0 0 3px -1px', height: '30px' }}
-                    src="https://ghbtns.com/github-btn.html?user=ShizukuIchi&repo=winXP&type=star&count=true&size=large"
+                    src="https://ghbtns.com=large"
                     frameBorder="0"
                     scrolling="0"
                     width="170px"
@@ -234,7 +234,7 @@ function MyComputer({ onClose }) {
                 <div className="com__content__left__card__row">
                   <img
                     className="com__content__left__card__img"
-                    src="https://cdn.iconscout.com/icon/free/png-256/medium-1425876-1205067.png"
+                    src="https://cdn.iconscout.com/icon/"
                     alt="control"
                   />
                   <ga.OutboundLink
@@ -249,7 +249,7 @@ function MyComputer({ onClose }) {
                 <div className="com__content__left__card__row">
                   <img
                     className="com__content__left__card__img"
-                    src="https://image.flaticon.com/icons/png/128/179/179312.png"
+                    src="https://image.flaticon.com/icons/png/128/1.png"
                     alt="control"
                   />
                   <ga.OutboundLink
