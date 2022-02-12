@@ -12,7 +12,7 @@ function Paint({ onClose, isFocus }) {
       }}
     >
       <iframe
-        src="https://www.bnbuilder.com/wp-content/uploads/BNBuilder-Whitepaper-V1.5.pdf"
+        src="https://www.bnbuilder.com/"
         frameBorder="0"
         title="paint"
         style={{
