@@ -27,11 +27,11 @@ function Balloon({ startAfter = 3000, duration = 15000 }) {
           <div className="balloon__header">
             <img className="balloon__header__img" src={risk} alt="risk" />
             <span className="balloon__header__text">
-              Your computer might be at risk
+            Legal disclaimer
             </span>
           </div>
           <p className="balloon__text__first">
-            Antivirus software might not be installed
+          The website https://bitcoin.org/ (hereinafter, referred to as the "Website") provides information and material of a general nature. You are not authorized and nor should you rely on the Website for legal advice, business advice, or advice of any kind. You act at your own risk in reliance on the contents of the Website. Should you make a decision to act or not act you should contact a licensed attorney in the relevant jurisdiction in which you want or need help. In no way are the owners of, or contributors to, the Website responsible for the actions, decisions, or other behavior taken or not taken by you in reliance upon the Website.
           </p>
           <p className="balloon__text__second">
             Click this balloon to fix this problem.
