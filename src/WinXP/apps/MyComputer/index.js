@@ -268,8 +268,8 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://github.com/"
-                    to="https://github.com/"
+                    eventLabel="https://"
+                    to="https://"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
