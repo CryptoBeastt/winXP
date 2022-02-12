@@ -243,7 +243,7 @@ function MyComputer({ onClose }) {
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
-                    Medium
+                    Test
                   </ga.OutboundLink>
                 </div>
                 <div className="com__content__left__card__row">
@@ -258,7 +258,7 @@ function MyComputer({ onClose }) {
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
-                    Blog
+                    Test
                   </ga.OutboundLink>
                 </div>
                 <div className="com__content__left__card__row">
@@ -273,7 +273,7 @@ function MyComputer({ onClose }) {
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
-                    Minesweeper(mobile)
+                    Test
                   </ga.OutboundLink>
                 </div>
               </div>
