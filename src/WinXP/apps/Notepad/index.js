@@ -6,8 +6,8 @@ function Paint({ onClose, isFocus }) {
   return (
     <div
       style={{
-        width: '400px',
-        height: '400px',
+        width: '100%',
+        height: '100%',
         position: 'relative',
       }}
     >

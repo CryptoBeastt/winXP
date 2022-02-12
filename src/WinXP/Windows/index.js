@@ -210,8 +210,8 @@ const StyledWindow = styled(Window)`
   .app__content {
     flex: 1;
     position: relative;
-    margin-top: 25px;
-    height: calc(100% - 25px);
+    margin-top: 45px;
+    height: calc(100% - 45px);
   }
 `;
 
