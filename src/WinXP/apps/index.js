@@ -148,9 +148,9 @@ export const defaultIconState = [
   },
   {
     id: 5,
-    icon: notepadLarge,
+    icon: paintLarge,
     title: 'Whitepaper',
-    component: Whitepaper,
+    component: Paint,
     isFocus: false,
   },
   {
