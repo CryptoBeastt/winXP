@@ -224,7 +224,7 @@ function MyComputer({ onClose }) {
                   <iframe
                     title="ghbtn"
                     style={{ margin: '0 0 3px -1px', height: '30px' }}
-                    src="https://ghbtns.com=large"
+                    src="https://"
                     frameBorder="0"
                     scrolling="0"
                     width="170px"
@@ -249,7 +249,7 @@ function MyComputer({ onClose }) {
                 <div className="com__content__left__card__row">
                   <img
                     className="com__content__left__card__img"
-                    src="https://image.flaticon.com/icons/png/128/1.png"
+                    src="https://"
                     alt="control"
                   />
                   <ga.OutboundLink
