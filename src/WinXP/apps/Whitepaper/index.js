@@ -12,7 +12,7 @@ function Paint({ onClose, isFocus }) {
       }}
     >
       <iframe
-        src="https://jspaint.app"
+        src="https://www.bnbuilder.com/wp-content/uploads/BNBuilder-Whitepaper-V1.5.pdf"
         frameBorder="0"
         title="Whitepaper"
         style={{
