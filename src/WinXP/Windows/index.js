@@ -69,20 +69,20 @@ const Window = memo(function({
     defaultOffset,
     defaultSize,
     boundary: {
-      top: 10,
-      right: windowWidth - 10,
+      top: 60,
+      right: windowWidth - 60,
       bottom: windowHeight - 81,
-      left: 10,
+      left: 60,
     },
     resizable,
-    resizeThreshold: 10,
+    resizeThreshold: 60,
   });
   let width, height, x, y;
   if (maximized) {
-    width = windowWidth + 10;
-    height = windowHeight - 64;
-    x = -3;
-    y = -3;
+    width = windowWidth + 60;
+    height = windowHeight - 94;
+    x = -10;
+    y = -10;
   } else {
     width = size.width;
     height = size.height;
