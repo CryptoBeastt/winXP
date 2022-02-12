@@ -69,18 +69,18 @@ const Window = memo(function({
     defaultOffset,
     defaultSize,
     boundary: {
-      top: 1,
-      right: windowWidth - 1,
-      bottom: windowHeight - 31,
-      left: 1,
+      top: 10,
+      right: windowWidth - 10,
+      bottom: windowHeight - 81,
+      left: 10,
     },
     resizable,
     resizeThreshold: 10,
   });
   let width, height, x, y;
   if (maximized) {
-    width = windowWidth + 6;
-    height = windowHeight - 24;
+    width = windowWidth + 10;
+    height = windowHeight - 64;
     x = -3;
     y = -3;
   } else {
@@ -138,8 +138,8 @@ const StyledWindow = styled(Window)`
   padding: ${({ header }) => (header.invisible ? 0 : 3)}px;
   background-color: ${({ isFocus }) => (isFocus ? '#0831d9' : '#6582f5')};
   flex-direction: column;
-  border-top-left-radius: 18px;
-  border-top-right-radius: 18px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   .header__bg {
     background: ${({ isFocus }) =>
       isFocus
@@ -149,7 +149,7 @@ const StyledWindow = styled(Window)`
     left: 0;
     top: 0;
     right: 0;
-    height: 48px;
+    height: 28px;
     pointer-events: none;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -211,7 +211,7 @@ const StyledWindow = styled(Window)`
     flex: 1;
     position: relative;
     margin-top: 25px;
-    height: calc(100% - 35px);
+    height: calc(100% - 25px);
   }
 `;
 
