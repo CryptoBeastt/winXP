@@ -121,7 +121,7 @@ export const defaultIconState = [
   {
     id: 1,
     icon: mine,
-    title: 'Minesweeper',
+    title: 'Arcade',
     component: Minesweeper,
     isFocus: false,
   },
