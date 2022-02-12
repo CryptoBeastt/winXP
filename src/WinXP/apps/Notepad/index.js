@@ -12,9 +12,9 @@ function Paint({ onClose, isFocus }) {
       }}
     >
       <iframe
-        src="https://www.nu.nl/"
+        src="https://www.windoge95.com/"
         frameBorder="0"
-        title="paint"
+        title="windoge"
         style={{
           display: 'block',
           width: '100%',
