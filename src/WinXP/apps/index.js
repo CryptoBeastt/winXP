@@ -150,7 +150,7 @@ export const defaultIconState = [
     id: 5,
     icon: paintLarge,
     title: 'Whitepaper',
-    component: Paint,
+    component: Whitepaper,
     isFocus: false,
   },
   {
