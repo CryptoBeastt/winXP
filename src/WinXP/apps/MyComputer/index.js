@@ -238,8 +238,8 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://medium.com/@ShizukuIchi"
-                    to="https://medium.com/@ShizukuIchi"
+                    eventLabel="https://medium.com/"
+                    to="https://medium.com/"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
