@@ -224,7 +224,7 @@ function MyComputer({ onClose }) {
                   <iframe
                     title="ghbtn"
                     style={{ margin: '0 0 3px -1px', height: '30px' }}
-                    src="https://ghbtns.com/github-btn.html?user=ShizukuIchi&repo=winXP&type=star&count=true&size=large"
+                    src="www.google.com"
                     frameBorder="0"
                     scrolling="0"
                     width="170px"
@@ -238,8 +238,8 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://medium.com/@ShizukuIchi"
-                    to="https://medium.com/@ShizukuIchi"
+                    eventLabel="www.google.com"
+                    to="www.google.com
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
@@ -249,12 +249,12 @@ function MyComputer({ onClose }) {
                 <div className="com__content__left__card__row">
                   <img
                     className="com__content__left__card__img"
-                    src="https://image.flaticon.com/icons/png/128/179/179312.png"
+                    src="www.google.com"
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://sh1zuku.csie.io/blog"
-                    to="https://sh1zuku.csie.io/blog"
+                    eventLabel="www.google.com"
+                    to="www.google.com"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
@@ -268,8 +268,8 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://github.com/ShizukuIchi/minesweeper"
-                    to="https://github.com/ShizukuIchi/minesweeper"
+                    eventLabel="www.google.com"
+                    to="www.google.com"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
