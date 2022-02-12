@@ -234,12 +234,12 @@ function MyComputer({ onClose }) {
                 <div className="com__content__left__card__row">
                   <img
                     className="com__content__left__card__img"
-                    src="https://cdn.iconscout.com/icon/"
+                    src="https://"
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://medium.com/"
-                    to="https://medium.com/"
+                    eventLabel="https://"
+                    to="https://"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
@@ -253,8 +253,8 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <ga.OutboundLink
-                    eventLabel="https://csie.io/blog"
-                    to="https://csie.io/blog"
+                    eventLabel="https://"
+                    to="https://"
                     className="com__content__left__card__text link"
                     target="_blank"
                   >
