@@ -138,8 +138,8 @@ const StyledWindow = styled(Window)`
   padding: ${({ header }) => (header.invisible ? 0 : 3)}px;
   background-color: ${({ isFocus }) => (isFocus ? '#0831d9' : '#6582f5')};
   flex-direction: column;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
   .header__bg {
     background: ${({ isFocus }) =>
       isFocus
@@ -149,7 +149,7 @@ const StyledWindow = styled(Window)`
     left: 0;
     top: 0;
     right: 0;
-    height: 28px;
+    height: 48px;
     pointer-events: none;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -210,8 +210,8 @@ const StyledWindow = styled(Window)`
   .app__content {
     flex: 1;
     position: relative;
-    margin-top: 45px;
-    height: calc(100% - 45px);
+    margin-top: 25px;
+    height: calc(100% - 35px);
   }
 `;
 
