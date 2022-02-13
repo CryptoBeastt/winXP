@@ -390,6 +390,7 @@ function MyComputer({ onClose }) {
     </Div>
   );
 }
+
 import React from 'react';
 
 // add child div to capture mouse event when not focused
