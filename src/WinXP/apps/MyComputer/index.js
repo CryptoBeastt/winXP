@@ -332,7 +332,7 @@ function MyComputer({ onClose }) {
                 </ga.OutboundLink>
                   <img
                     src={disk}
-                    alt="disk"
+                    alt="control"
                     className="com__content__right__card__img"
                   />
                   <div className="com__content__right__card__img-container">
