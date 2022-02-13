@@ -325,7 +325,7 @@ function MyComputer({ onClose }) {
                 >
                   <img
                     className="com__content__right__card__img"
-                    src={logo}
+                    src={disk}
                     alt="control"
                   />
                   <div className="com__content__right__card__text">test1</div>
