@@ -107,7 +107,7 @@ function MyComputer({ onClose }) {
           <span className="com__address_bar__go__text">Go</span>
         </div>
       </section>
-      <div className="com__content">
+      <div></div> className="com__content"
         <div className="com__content__inner">
           <div className="com__content__left">
             <div className="com__content__left__card">
