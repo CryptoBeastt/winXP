@@ -329,18 +329,6 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <div className="com__content__right__card__text">test1</div>
-                  <ga.OutboundLink
-                  eventLabel="https://www.google.com"
-                  to="https://www.google.com"
-                  className="com__content__right__card__item--me"
-                  target="_blank"
-                >
-                  <img
-                    className="com__content__right__card__img"
-                    src={logo}
-                    alt="control"
-                  />
-                  <div className="com__content__right__card__text">test2</div>
                 </ga.OutboundLink>
                   <img
                     src={disk}
