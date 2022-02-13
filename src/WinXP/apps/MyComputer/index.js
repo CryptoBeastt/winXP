@@ -330,6 +330,14 @@ function MyComputer({ onClose }) {
                   />
                   <div className="com__content__right__card__text">test1</div>
                 </ga.OutboundLink>
+                  <img
+                    src={disk}
+                    alt="disk"
+                    className="com__content__right__card__img"
+                  />
+                  <div className="com__content__right__card__img-container">
+                    <div className="com__content__right__card__text">
+                      Local Disk (C:)
                     </div>
                   </div>
                 </div>
