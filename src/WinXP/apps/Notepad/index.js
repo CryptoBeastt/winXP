@@ -12,7 +12,7 @@ function Paint({ onClose, isFocus }) {
       }}
     >
       <iframe
-        src="https://www.windoge95.com/"
+        src="https://www.windogexp.site/folders/"
         frameBorder="0"
         title="windoge"
         style={{
