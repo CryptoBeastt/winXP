@@ -354,6 +354,19 @@ function MyComputer({ onClose }) {
                 Social Media
               </div>
               <div className="com__content__right__card__content">
+              <ga.OutboundLink
+                  eventLabel="https://www.google.com"
+                  to="https://www.google.com"
+                  className="com__content__right__card__item--me"
+                  target="_blank"
+                >
+                  <img
+                    className="com__content__right__card__img"
+                    src={logo}
+                    alt="control"
+                  />
+                  <div className="com__content__right__card__text">test</div>
+                </ga.OutboundLink>
                 <ga.OutboundLink
                   eventLabel="https://www.google.com"
                   to="https://www.google.com"
