@@ -107,7 +107,7 @@ function MyComputer({ onClose }) {
           <span className="com__address_bar__go__text">Go</span>
         </div>
       </section>
-      <div></div> className="com__content"
+      <div className="com__content">
         <div className="com__content__inner">
           <div className="com__content__left">
             <div className="com__content__left__card">
@@ -208,6 +208,77 @@ function MyComputer({ onClose }) {
                 </div>
               </div>
             </div>
+            <div className="com__content__left__card">
+              <div className="com__content__left__card__header">
+                <div className="com__content__left__card__header__text">
+                  Details
+                </div>
+                <img
+                  src={pullup}
+                  alt=""
+                  className="com__content__left__card__header__img"
+                />
+              </div>
+              <div className="com__content__left__card__content">
+                <div className="com__content__left__card__row">
+                  <iframe
+                    title="ghbtn"
+                    style={{ margin: '0 0 3px -1px', height: '30px' }}
+                    src="https://"
+                    frameBorder="0"
+                    scrolling="0"
+                    width="170px"
+                    height="20px"
+                  />
+                </div>
+                <div className="com__content__left__card__row">
+                  <img
+                    className="com__content__left__card__img"
+                    src="https://"
+                    alt="control"
+                  />
+                  <ga.OutboundLink
+                    eventLabel="https://"
+                    to="https://"
+                    className="com__content__left__card__text link"
+                    target="_blank"
+                  >
+                    Test
+                  </ga.OutboundLink>
+                </div>
+                <div className="com__content__left__card__row">
+                  <img
+                    className="com__content__left__card__img"
+                    src="https://"
+                    alt="control"
+                  />
+                  <ga.OutboundLink
+                    eventLabel="https://"
+                    to="https://"
+                    className="com__content__left__card__text link"
+                    target="_blank"
+                  >
+                    Test
+                  </ga.OutboundLink>
+                </div>
+                <div className="com__content__left__card__row">
+                  <img
+                    className="com__content__left__card__img"
+                    src={mine}
+                    alt="control"
+                  />
+                  <ga.OutboundLink
+                    eventLabel="https://"
+                    to="https://"
+                    className="com__content__left__card__text link"
+                    target="_blank"
+                  >
+                    Test
+                  </ga.OutboundLink>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="com__content__right">
             <div className="com__content__right__card">
               <div className="com__content__right__card__header">
