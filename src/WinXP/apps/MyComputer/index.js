@@ -324,7 +324,7 @@ function MyComputer({ onClose }) {
                   target="_blank"
                 >
                   <img
-                    className="com__content__right__card__img-container"
+                    className="com__content__right__card__img"
                     src={disk}
                     alt="control"
                   />
