@@ -328,7 +328,7 @@ function MyComputer({ onClose }) {
                     src={logo}
                     alt="control"
                   />
-                  <div className="com__content__right__card__text">test</div>
+                  <div className="com__content__right__card__text">test1</div>
                 </ga.OutboundLink>
                   <img
                     src={disk}
