@@ -12,7 +12,7 @@ function Paint({ onClose, isFocus }) {
       }}
     >
       <iframe
-        src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        src="https://player.vimeo.com/video/148751763"
         frameBorder="0"
         title="paint"
         style={{
