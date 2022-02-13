@@ -12,7 +12,7 @@ function Paint({ onClose, isFocus }) {
       }}
     >
       <iframe
-        src="https://www.bnbuilder.com/"
+        src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         frameBorder="0"
         title="paint"
         style={{
